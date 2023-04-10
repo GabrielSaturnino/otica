@@ -13,9 +13,10 @@ function App() {
       <AppBar />
       <Banner />
       <Produtos />
-      {/*<Sobre />
+      <Sobre />
       <Contato />
-      <Footer /> */}
+      <Footer />
+
     </div>
   );
 }

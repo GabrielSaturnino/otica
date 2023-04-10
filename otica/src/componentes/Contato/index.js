@@ -1,4 +1,5 @@
 import ListaContato from '../Lista-contatos/index';
+import './style.css';
 
 export default function Contato() {
   return (
