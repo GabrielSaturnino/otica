@@ -1,0 +1,25 @@
+.banner {
+  background-image: url(../../../public/assets/img/capa.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-container {
+  text-align: left;
+  margin-right: 500px;
+}
+
+.banner-container p {
+  font-size: 2em;
+}
+
+.banner-container h1 {
+  font-size: 3em;
+}

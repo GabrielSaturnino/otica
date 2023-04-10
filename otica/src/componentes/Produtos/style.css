@@ -1,0 +1,29 @@
+#produtos {
+  max-width: 1000px;
+  min-width: 320px;
+  margin: 70px auto;
+}
+
+#produtos p{
+  font-size: 1.1em;
+}
+
+.container-card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.lista {
+  width: 50%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.lista ul {
+  list-style-position: inside;
+  font-size: 1.1em;
+  line-height: 30px;
+}

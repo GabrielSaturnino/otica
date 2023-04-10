@@ -1,0 +1,14 @@
+.card-produto img {
+  height: 175px;
+  width: 450px;
+  object-fit: contain;
+}
+
+.card-produto {
+  background: rgb(245, 244, 244);
+  width: 470px;
+}
+
+.card-produto p {
+  font-weight: bold;
+}

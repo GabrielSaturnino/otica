@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 7px 0;
+}
+
+header img {
+  width: 150px;
+  height: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1.25em;
+  margin-right: 20px;
+  color: black;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
