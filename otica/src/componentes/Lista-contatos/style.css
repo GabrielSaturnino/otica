@@ -1,0 +1,90 @@
+.lista-contato {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+.lista-contato ul li {
+  padding: 5px;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.first h2 {
+  text-align: center;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.lista-contato ul li {
+  position: relative;
+}
+
+.loc1::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-size: cover;
+  background-image: url('../../../public/assets/img/local.png'); 
+  left: -25px;
+}
+
+.loc2::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-size: cover;
+  background-image: url('../../../public/assets/img/telefone.png'); 
+  left: -25px;
+}
+
+.loc3::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-size: cover;
+  background-image: url('../../../public/assets/img/email.png'); 
+  left: -25px;
+}
+
+.loc4::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-size: cover;
+  background-image: url('../../../public/assets/img/fb.png'); 
+  left: -25px;
+}
+
+.loc5::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-size: cover;
+  background-image: url('../../../public/assets/img/ig.png'); 
+  left: -25px;
+}
+
+.loc6::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-size: cover;
+  background-image: url('../../../public/assets/img/tt.png'); 
+  left: -25px;
+}

@@ -16,7 +16,6 @@ function App() {
       <Sobre />
       <Contato />
       <Footer />
-
     </div>
   );
 }
